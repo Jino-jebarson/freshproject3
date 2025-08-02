@@ -6,7 +6,7 @@ import Service from "./Services/Services"
 import Blog from "./Blogs/Blogs"
 import Contact from "./Contact/Contact"
 import Footer from "./Footer/Footer"
-
+import '../src/App.css'
 function App() {
 
   return (

@@ -93,7 +93,7 @@
 }
 
 /* 📱 Small screens (363px to 405px) — place BEFORE general max-572px */
-@media (min-width: 363px) and (max-width: 405px) {
+@media (min-width: 323px) and (max-width: 405px) {
   .para-container {
     width: 310px !important;
     font-size: 10px;
@@ -430,16 +430,16 @@
   }
 }
 
-@media (min-width: 410px) and (max-width: 767px) {
+@media (min-width: 356px) and (max-width: 767px) {
   .col-12 {
     position: relative;
     top: 50px;
-    right: 15px;
+    right: 65px;
   }
 
 }
 
-@media (min-width: 363px) and (max-width: 405px) {
+@media (min-width: 323px) and (max-width: 405px) {
   .col-12 {
     position: relative;
     right: 30px;
@@ -455,7 +455,6 @@
 }
 
 .products {
-  padding-top: 20px;
   display: flex;
 }
 
@@ -475,20 +474,23 @@
   color: #EA580C;
   margin-left: 7px;
 }
-#product-liability > div > h4{
+
+#product-liability>div>h4 {
   width: 210px;
 }
 
-#product-engineering > div > h4{
+#product-engineering>div>h4 {
   width: 210px;
 }
 
-#product-employee > div > h4{
+#product-employee>div>h4 {
   width: 210px;
 }
-#product-assets > div > h3{
+
+#product-assets>div>h3 {
   width: 210px;
 }
+
 @media (max-width: 900px) {
   .mobile-title {
     align-items: center !important;
@@ -502,19 +504,22 @@
 
   .mobile-list {
     padding-left: 15px;
-    
+
   }
 
   .mobile-item {
     margin-left: 0 !important;
   }
 }
+
 @media (min-width: 901px) {
   .desktop-shift {
-    padding-left: 200px; /* Adjust as needed */
+    padding-left: 200px;
+    /* Adjust as needed */
   }
 }
-.desktop-shift{
+
+.desktop-shift {
   padding-bottom: 80px;
 }
 
@@ -554,13 +559,15 @@
 }
 
 
-#bg-d{
+#bg-d {
   margin-top: 100px;
-  
+
 }
-.abt-container > div {
+
+.abt-container>div {
   padding-top: 40px;
 }
+
 .abt-container>div>.ab1 {
   font-family: 'Montsserat', sans-serif;
   font-weight: 800;
@@ -587,7 +594,7 @@
 }
 
 
-#gallery{
+#gallery {
   margin-top: 50px;
 }
 
@@ -620,4 +627,48 @@
   line-height: 30px;
   letter-spacing: 0%;
   color: #353535;
+}
+
+@media (min-width: 323px) and (max-width: 405px) {
+  #ci {
+    position: relative;
+    right: 30px;
+    top: 18px;
+  }
+
+  #fi {
+    position: relative;
+    right: 18px;
+  }
+
+}
+
+@media (min-width: 323px) and (max-width: 405px) {
+  #blog-les1 {
+    position: relative;
+    right: 30px;
+    width: 200px;
+  }
+
+  #blog-les2 {
+    position: relative;
+    right: 30px;
+    width: 200px;
+
+  }
+
+  #blog-les3 {
+    position: relative;
+    right: 30px;
+    width: 200px;
+
+  }
+  #blog-les1 > img{
+    width: 300px !important;
+  }
+  #blog-les2 > img{
+    width: 300px !important;
+  }#blog-les3 > img{
+    width: 300px !important;
+  }
 }

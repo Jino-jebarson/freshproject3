@@ -545,8 +545,8 @@ function Home() {
                     <h2 style={{ marginTop: '14px', fontFamily: "'DM Sans',sans-serif", fontSize: '48px', fontWeight: '700', lineHeight: '120%', color: '#050509' }}>Blogs</h2>
                     <div className='row justify-content-center'>
 
-                        <div className='col-12 col-sm-6 col-lg-4 d-flex flex-column align-items-center text-center mb-4 mb-lg-0'>
-                            <img
+                        <div className='col-12 col-sm-6 col-lg-4 d-flex flex-column align-items-center text-center mb-4 mb-lg-0'id='blog-les1'>
+                            <img 
                                 src={blog1}
                                 alt="img"
                                 style={{
@@ -562,7 +562,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className='col-12 col-sm-6 col-lg-4 d-flex flex-column align-items-center text-center mb-4 mb-lg-0'>
+                        <div className='col-12 col-sm-6 col-lg-4 d-flex flex-column align-items-center text-center mb-4 mb-lg-0' id='blog-les2'>
                             <img
                                 src={blog2}
                                 alt="img"
@@ -579,7 +579,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className='col-12 col-sm-6 col-lg-4 d-flex flex-column align-items-center text-center'>
+                        <div className='col-12 col-sm-6 col-lg-4 d-flex flex-column align-items-center text-center' id='blog-les3'>
                             <img
                                 src={blog3}
                                 alt="img"
