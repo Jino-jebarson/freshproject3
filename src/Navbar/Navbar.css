@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#navbar-container {
+  margin-top: 0 !important;
+  background-color: #ffff !important;
+}
+
+body {
+  background-color: #F3F5FC !important;
+}
+/* Navbar.css */
+.nav-link-custom {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #353535;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link-custom:hover {
+  color: #1E3A8A;
+  transform: translateY(-2px);
+}
+.nav-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #843207, #1E3A8A); /* reverse gradient */
+  cursor: pointer;
+}
+
+.nav-button {
+  background: linear-gradient(to right, #1E3A8A, #843207);
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+
